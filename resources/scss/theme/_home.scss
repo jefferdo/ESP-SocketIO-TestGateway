@@ -1,0 +1,25 @@
+body {
+    background-color: black !important;
+
+    * {
+        font-family: 'Akshar', sans-serif;
+    }
+
+    .container {
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            pre {
+                color: white;
+                font-size: 2rem;
+
+                &.name {
+                    display: none;
+                }
+            }
+        }
+    }
+}
