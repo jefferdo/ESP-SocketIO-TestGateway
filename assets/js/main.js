@@ -270,7 +270,7 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 
 $(function () {
   var host = document.domain;
-  var socket = socket_io_client__WEBPACK_IMPORTED_MODULE_0__.connect(host + ":9000");
+  var socket = socket_io_client__WEBPACK_IMPORTED_MODULE_0__.connect(host);
   socket.on('connect', function () {
     $("#display").text("Connected");
   });
